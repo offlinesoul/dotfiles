@@ -18,6 +18,7 @@ let g:mapleader = ","
 imap jk <Esc>
 nmap <leader>w :w!<CR>
 nmap <leader>q :q!<CR>
+nnoremap V 0vg_
 
 " Custom Commands
 command! W execute 'w !sudo tee % > /dev/null' <bar> edit!
